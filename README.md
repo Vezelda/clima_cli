@@ -64,6 +64,11 @@ python wheater_cli.py "Asunción, Paraguay" -f text
 
 - **Python** como lenguaje de programación que hace posible el desarrollo de esta herramienta.
 
+5- Si tienes alguna duda podrias utilizar el comando:
+```
+python weather_cli.py help
+```
+para poder tener indicaciones de como ejecutar el programa
 
 ## Uso Automatizado
 
