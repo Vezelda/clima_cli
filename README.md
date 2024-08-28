@@ -24,10 +24,13 @@ source nombre_de_tu_entorno/bin/activate
 3- Instalamos dependencias, podes ejecutar en la terminal una vez que tengas creado y activado tu entorno virtual:
 pip install requeriments.txt
 
-4- Si bien, en mi codigo te dejo una key de OpenWheater, te recomiendo que lo cambies asi puedas manejar el tuyo, aqui abajo te dejo el link
+4- Te recomiendo que crees un archivo json llamado config.json luego en ellos cargas estos parametros para que el programa pueda estirar desde ahi la informacion de tu Apikey
 
 ```
-OPENWEATHERMAP_API_KEY=your_api_key_here
+{
+    "API_KEY": "aqui_deberias_de_poner_tu_APIkey",
+    "BASE_URL": "http://api.openweathermap.org/data/2.5/weather"
+}
 ```
 
 
