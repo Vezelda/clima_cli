@@ -1,3 +1,5 @@
 #Ignora el env
 config.json
 wheatervenv/
+.git
+.vscode
