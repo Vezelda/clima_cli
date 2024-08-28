@@ -3,9 +3,20 @@ import argparse
 import sys
 import json
 
-API_KEY = 'b458deabd22cb1b73eedfacf4a4a7f07'  # Tu API Key de OpenWeatherMap
-BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
+# Cargar configuración desde config.json
+try:
+    with open('config.json') as config_file:
+        config = json.load(config_file)
+        API_KEY = config.get('API_KEY')
+        BASE_URL = config.get('BASE_URL')
+except FileNotFoundError:
+    print("Error: No se encontró el archivo 'config.json'. Asegúrate de que exista en el directorio actual.", file=sys.stderr)
+    sys.exit(1)
+except json.JSONDecodeError:
+    print("Error: No se pudo leer el archivo 'config.json'. Asegúrate de que esté en formato JSON válido.", file=sys.stderr)
+    sys.exit(1)
 
+# El resto de tu código permanece igual...
 def show_help():
     help_text = """
     Uso: python weather_cli.py -l <ubicación> [-f <formato>]
