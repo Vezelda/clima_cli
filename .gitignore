@@ -1,3 +1,4 @@
 .git/
 .vscode/
 wheatervenv/
+config.json
