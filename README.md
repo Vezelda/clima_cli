@@ -1,4 +1,4 @@
-# CLI Weather Aplicacion 🌦️
+# CLI Weather Aplicacion  🌦️
 
 Una aplicacion sencilla de consulta de API para obtener datos climaticos de cualquier ciudad y pais, en formatO Json, Texto o CSV, en este caso usamos la API de OpenWheaterMap y el lenguaje Python
 
