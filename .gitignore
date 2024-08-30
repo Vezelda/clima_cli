@@ -1,4 +1,4 @@
-#Ignora el env
+# Ignora el env
 config.json
 wheatervenv/
 .git
