@@ -1,16 +1,20 @@
-# CLI Weather Aplicacion 🌦️
+# CLI Weather Aplicacion  🌦️
 
 Una aplicacion sencilla de consulta de API para obtener datos climaticos de cualquier ciudad y pais, en formatO Json, Texto o CSV, en este caso usamos la API de OpenWheaterMap y el lenguaje Python
 
 ## Caracteristicas
 
 - Obtiene información meteorológica actual (temperatura y descripción) para una ciudad y un país determinados.
+
 - Utiliza la API de codificación geográfica de OpenWeatherMap para convertir nombres de ciudades y países en coordenadas geográficas.
 
 ## Prerequisitos
+
 - Tener instalado Python.
+
 - Instalar requests (para poder hacer las consultas a la api usualmente luego de tener creado y activado tu entorno virtual seria con el comando: pip install requests
 en la terminal)
+
 - Una API key de [OpenWeatherMap](https://openweathermap.org/api). (te registras y tenes una key gratis)
 
 ## Instalacion
