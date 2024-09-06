@@ -17,7 +17,7 @@ en la terminal)
 
 - Una API key de [OpenWeatherMap](https://openweathermap.org/api). (te registras y tenes una key gratis)
 
-## Instalacion
+# Instalacion
 
 1- Creamos un entorno virtual: 
 python3 -m venv nombre_de_tu_entorno
